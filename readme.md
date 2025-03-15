@@ -11,16 +11,13 @@ Welcome to the **Portfolio Optimization** project! This repository implements **
 
 ### **🔹 What is Mean-Variance Optimization?**
 - Mean-Variance Optimization (MVO) helps investors **maximize expected return** while **minimizing risk**.
-- It is based on the **expected return (\(\mu\))**, **volatility (\(\sigma\))**, and **correlation** between assets.
+- It is based on the **expected return (μ)**, **volatility (σ)**, and **correlation** between assets.
 
 ### **🔹 Key Features Implemented**
 ✅ **Market Data Retrieval**: Fetching stock price data over a recent period.  
-✅ **Expected Return & Risk Estimation**: Computing **\(\mu\) and \(\sigma\)** for each stock.  
+✅ **Expected Return & Risk Estimation**: Computing **μ and σ** for each stock.  
 ✅ **Covariance Matrix Calculation**: Estimating risk relationships between assets.  
-✅ **Optimization Using MVO**:  
-   \[
-   w^* = \frac{1}{\lambda} \Sigma^{-1} (\mu - r\mathbf{1})
-   \]
+✅ **Optimization Using MVO**
 ✅ **Comparison of Equal vs. Optimized Weights** with **Visualizations**.  
 ✅ **GitHub Pages Integration** to display the notebook online.  
 
