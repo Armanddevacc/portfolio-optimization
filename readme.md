@@ -1,24 +1,32 @@
-# Porfolio Optimization methods
+# 📊 Portfolio Optimization using Mean-Variance Analysis
 
-## Project Overview
+Welcome to the **Portfolio Optimization** project! This repository implements **Mean-Variance Optimization** based on **Markowitz’s Modern Portfolio Theory (MPT)** to determine optimal asset allocation for a portfolio.
 
-### **Methodology**
-- **Retrieve Market Data**: Fetch stock prices for selected assets over the last 50 days.
-- **Compute Key Metrics**:
-  - Expected returns (\(\mu\))
-  - Standard deviations (\(\sigma\))
-  - Covariance matrix (\(\Sigma\))
-- **Optimize Portfolio Weights**:
-  - Solve \( w^* = \frac{1}{\lambda} \Sigma^{-1} (\mu - r\mathbf{1}) \)
-  - Include a **risk-free asset** for stability.
-- **Analyze Portfolio Allocation**:
-  - Compare **equal-weighted vs. optimized weights**.
-  - Visualize portfolio weight changes using bar charts.
+🔗 **Live Notebook (GitHub Pages)**:  
+ [View Portfolio Optimization Methods](https://armanddevacc.github.io/portfolio-optimization/portfolio-optimization-methods.html)
 
 ---
-## Jupyter Notebook
 
-You can view the Jupyter Notebook [here](https://raw.githubusercontent.com/Armanddevacc/portfolio-optimization/refs/heads/main/portofolio-optimization-methods.ipynb)
+## 📌 Project Overview
+
+### **🔹 What is Mean-Variance Optimization?**
+- Mean-Variance Optimization (MVO) helps investors **maximize expected return** while **minimizing risk**.
+- It is based on the **expected return (\(\mu\))**, **volatility (\(\sigma\))**, and **correlation** between assets.
+
+### **🔹 Key Features Implemented**
+✅ **Market Data Retrieval**: Fetching stock price data over a recent period.  
+✅ **Expected Return & Risk Estimation**: Computing **\(\mu\) and \(\sigma\)** for each stock.  
+✅ **Covariance Matrix Calculation**: Estimating risk relationships between assets.  
+✅ **Optimization Using MVO**:  
+   \[
+   w^* = \frac{1}{\lambda} \Sigma^{-1} (\mu - r\mathbf{1})
+   \]
+✅ **Comparison of Equal vs. Optimized Weights** with **Visualizations**.  
+✅ **GitHub Pages Integration** to display the notebook online.  
+
+---
+
+---
 
 ## Steps to set up the environment and install the required libraries
 1. Installing uv                            
