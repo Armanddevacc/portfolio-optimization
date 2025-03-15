@@ -17,7 +17,7 @@ Welcome to the **Portfolio Optimization** project! This repository implements **
 ✅ **Market Data Retrieval**: Fetching stock price data over a recent period.  
 ✅ **Expected Return & Risk Estimation**: Computing **μ and σ** for each stock.  
 ✅ **Covariance Matrix Calculation**: Estimating risk relationships between assets.  
-✅ **Optimization Using MVO**
+✅ **Optimization Using MVO**.
 ✅ **Comparison of Equal vs. Optimized Weights** with **Visualizations**.  
 ✅ **GitHub Pages Integration** to display the notebook online.  
 
